@@ -11,6 +11,7 @@
 		65850EC82A8C791D00BB21BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850EC72A8C791D00BB21BC /* ContentView.swift */; };
 		65850ECA2A8C791E00BB21BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65850EC92A8C791E00BB21BC /* Assets.xcassets */; };
 		65850ECD2A8C791E00BB21BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65850ECC2A8C791E00BB21BC /* Preview Assets.xcassets */; };
+		65850EE12A8C79D400BB21BC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850EE02A8C79D400BB21BC /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		65850EC72A8C791D00BB21BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65850EC92A8C791E00BB21BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65850ECC2A8C791E00BB21BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65850EE02A8C79D400BB21BC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,12 @@
 		65850EC42A8C791D00BB21BC /* threads-clone */ = {
 			isa = PBXGroup;
 			children = (
-				65850EC52A8C791D00BB21BC /* threads_cloneApp.swift */,
-				65850EC72A8C791D00BB21BC /* ContentView.swift */,
+				65850EDA2A8C797600BB21BC /* App */,
+				65850ED92A8C797500BB21BC /* Core */,
+				65850ED82A8C797400BB21BC /* Extensions */,
+				65850ED72A8C797300BB21BC /* Model */,
+				65850ED62A8C797200BB21BC /* Services */,
+				65850ED32A8C796600BB21BC /* Utils */,
 				65850EC92A8C791E00BB21BC /* Assets.xcassets */,
 				65850ECB2A8C791E00BB21BC /* Preview Content */,
 			);
@@ -65,6 +71,75 @@
 				65850ECC2A8C791E00BB21BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65850ED32A8C796600BB21BC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		65850ED62A8C797200BB21BC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		65850ED72A8C797300BB21BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65850ED82A8C797400BB21BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65850ED92A8C797500BB21BC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				65850EDC2A8C799900BB21BC /* Authentication */,
+				65850EDB2A8C799600BB21BC /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		65850EDA2A8C797600BB21BC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				65850EC52A8C791D00BB21BC /* threads_cloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		65850EDB2A8C799600BB21BC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				65850EC72A8C791D00BB21BC /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		65850EDC2A8C799900BB21BC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				65850EDD2A8C79B400BB21BC /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		65850EDD2A8C79B400BB21BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65850EE02A8C79D400BB21BC /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65850EE12A8C79D400BB21BC /* LoginView.swift in Sources */,
 				65850EC82A8C791D00BB21BC /* ContentView.swift in Sources */,
 				65850EC62A8C791D00BB21BC /* threads_cloneApp.swift in Sources */,
 			);
