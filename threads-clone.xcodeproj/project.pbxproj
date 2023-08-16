@@ -24,6 +24,7 @@
 		65850F012A8C92B600BB21BC /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850F002A8C92B600BB21BC /* ThreadCell.swift */; };
 		65850F042A8D6A9D00BB21BC /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850F032A8D6A9D00BB21BC /* CircularProfileImageView.swift */; };
 		65850F062A8D6AFE00BB21BC /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850F052A8D6AFE00BB21BC /* UserCell.swift */; };
+		65850F092A8D731A00BB21BC /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850F082A8D731A00BB21BC /* ProfileThreadFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		65850F002A8C92B600BB21BC /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		65850F032A8D6A9D00BB21BC /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		65850F052A8D6AFE00BB21BC /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		65850F082A8D731A00BB21BC /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +262,7 @@
 		65850EFC2A8C91B600BB21BC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				65850F072A8D730B00BB21BC /* Model */,
 				65850EFD2A8C91B900BB21BC /* View */,
 			);
 			path = Profile;
@@ -280,6 +283,14 @@
 				65850F052A8D6AFE00BB21BC /* UserCell.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		65850F072A8D730B00BB21BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65850F082A8D731A00BB21BC /* ProfileThreadFilter.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +366,7 @@
 				65850EFB2A8C91AD00BB21BC /* ActivityView.swift in Sources */,
 				65850EF72A8C918E00BB21BC /* CreateThreadView.swift in Sources */,
 				65850EEF2A8C912C00BB21BC /* FeedView.swift in Sources */,
+				65850F092A8D731A00BB21BC /* ProfileThreadFilter.swift in Sources */,
 				65850EF32A8C915700BB21BC /* ExploreView.swift in Sources */,
 				65850EFF2A8C91C300BB21BC /* ProfileView.swift in Sources */,
 				65850EE82A8C7EC100BB21BC /* ThreadsButtonModifier.swift in Sources */,
