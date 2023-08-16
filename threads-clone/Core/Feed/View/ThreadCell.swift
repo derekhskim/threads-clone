@@ -11,17 +11,13 @@ struct ThreadCell: View {
     var body: some View {
         VStack {
             HStack(alignment: .top, spacing: 12) {
-                Image("Github")
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 40, height: 40)
-                    .clipShape(Circle())
+                CircularProfileImageView()
                 
                 VStack(alignment: .leading, spacing: 4) {
                     HStack {
                         Text("Github")
                             .font(.footnote)
-                        .fontWeight(.semibold)
+                            .fontWeight(.semibold)
                         
                         Spacer()
                         
@@ -35,7 +31,7 @@ struct ThreadCell: View {
                             Image(systemName: "ellipsis")
                                 .foregroundColor(Color(.darkGray))
                         }
-
+                        
                     }
                     
                     Text("Version Control Champion")
@@ -66,7 +62,7 @@ struct ThreadCell: View {
                         } label: {
                             Image(systemName: "paperplane")
                         }
-
+                        
                     }
                     .foregroundColor(.black)
                     .padding(.vertical, 8)
