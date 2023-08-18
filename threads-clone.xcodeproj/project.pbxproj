@@ -13,6 +13,8 @@
 		6574A5DA2A8F0A94000FF499 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6574A5D92A8F0A94000FF499 /* FirebaseFirestore */; };
 		6574A5DC2A8F0A94000FF499 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6574A5DB2A8F0A94000FF499 /* FirebaseFirestoreSwift */; };
 		6574A5DE2A8F0A94000FF499 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6574A5DD2A8F0A94000FF499 /* FirebaseStorage */; };
+		6574A5E22A8F0C64000FF499 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6574A5E12A8F0C64000FF499 /* RegistrationViewModel.swift */; };
+		6574A5E42A8F0D39000FF499 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6574A5E32A8F0D39000FF499 /* AuthService.swift */; };
 		65850EC62A8C791D00BB21BC /* threads_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850EC52A8C791D00BB21BC /* threads_cloneApp.swift */; };
 		65850EC82A8C791D00BB21BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850EC72A8C791D00BB21BC /* ContentView.swift */; };
 		65850ECA2A8C791E00BB21BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65850EC92A8C791E00BB21BC /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		6570D4EC2A8DD273005F49E0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		6574A5D42A8F0959000FF499 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6574A5E12A8F0C64000FF499 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		6574A5E32A8F0D39000FF499 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		65850EC22A8C791D00BB21BC /* threads-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "threads-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65850EC52A8C791D00BB21BC /* threads_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threads_cloneApp.swift; sourceTree = "<group>"; };
 		65850EC72A8C791D00BB21BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,22 @@
 				6570D4EC2A8DD273005F49E0 /* EditProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		6574A5DF2A8F0C3A000FF499 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6574A5E12A8F0C64000FF499 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6574A5E02A8F0C3F000FF499 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6574A5E32A8F0D39000FF499 /* AuthService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		65850EB92A8C791D00BB21BC = {
@@ -192,7 +212,9 @@
 		65850EDC2A8C799900BB21BC /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				6574A5DF2A8F0C3A000FF499 /* ViewModel */,
 				65850EDD2A8C79B400BB21BC /* Views */,
+				6574A5E02A8F0C3F000FF499 /* Service */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -404,10 +426,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				65850EFB2A8C91AD00BB21BC /* ActivityView.swift in Sources */,
+				6574A5E22A8F0C64000FF499 /* RegistrationViewModel.swift in Sources */,
 				6570D4ED2A8DD273005F49E0 /* EditProfileView.swift in Sources */,
 				65850EF72A8C918E00BB21BC /* CreateThreadView.swift in Sources */,
 				65850EEF2A8C912C00BB21BC /* FeedView.swift in Sources */,
 				65850F092A8D731A00BB21BC /* ProfileThreadFilter.swift in Sources */,
+				6574A5E42A8F0D39000FF499 /* AuthService.swift in Sources */,
 				65850EF32A8C915700BB21BC /* ExploreView.swift in Sources */,
 				65850EFF2A8C91C300BB21BC /* ProfileView.swift in Sources */,
 				65850EE82A8C7EC100BB21BC /* ThreadsButtonModifier.swift in Sources */,
