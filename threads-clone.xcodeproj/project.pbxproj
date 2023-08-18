@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6570D4ED2A8DD273005F49E0 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570D4EC2A8DD273005F49E0 /* EditProfileView.swift */; };
+		6574A5D52A8F0959000FF499 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6574A5D42A8F0959000FF499 /* GoogleService-Info.plist */; };
 		65850EC62A8C791D00BB21BC /* threads_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850EC52A8C791D00BB21BC /* threads_cloneApp.swift */; };
 		65850EC82A8C791D00BB21BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850EC72A8C791D00BB21BC /* ContentView.swift */; };
 		65850ECA2A8C791E00BB21BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65850EC92A8C791E00BB21BC /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		6570D4EC2A8DD273005F49E0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		6574A5D42A8F0959000FF499 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65850EC22A8C791D00BB21BC /* threads-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "threads-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65850EC52A8C791D00BB21BC /* threads_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threads_cloneApp.swift; sourceTree = "<group>"; };
 		65850EC72A8C791D00BB21BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				65850ED72A8C797300BB21BC /* Model */,
 				65850ED62A8C797200BB21BC /* Services */,
 				65850ED32A8C796600BB21BC /* Utils */,
+				6574A5D42A8F0959000FF499 /* GoogleService-Info.plist */,
 				65850EC92A8C791E00BB21BC /* Assets.xcassets */,
 				65850ECB2A8C791E00BB21BC /* Preview Content */,
 			);
@@ -372,6 +375,7 @@
 			files = (
 				65850ECD2A8C791E00BB21BC /* Preview Assets.xcassets in Resources */,
 				65850ECA2A8C791E00BB21BC /* Assets.xcassets in Resources */,
+				6574A5D52A8F0959000FF499 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
