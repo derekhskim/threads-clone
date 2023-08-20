@@ -30,6 +30,7 @@ struct RegistrationView: View {
                     .modifier(ThreadsTextFieldModifier())
                 
                 TextField("Enter your full name", text: $viewModel.fullname)
+                    .autocorrectionDisabled(true)
                     .modifier(ThreadsTextFieldModifier())
 
                 TextField("Enter your username", text: $viewModel.username)
