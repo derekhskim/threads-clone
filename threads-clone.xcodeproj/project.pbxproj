@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		65162ED02A91AF2000737DCA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65162ECF2A91AF2000737DCA /* LoginViewModel.swift */; };
+		65162ED22A91C12000737DCA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65162ED12A91C12000737DCA /* User.swift */; };
+		65162ED42A91C2CB00737DCA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65162ED32A91C2CB00737DCA /* UserService.swift */; };
+		65162ED72A91C39700737DCA /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65162ED62A91C39700737DCA /* ProfileViewModel.swift */; };
 		6570D4ED2A8DD273005F49E0 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6570D4EC2A8DD273005F49E0 /* EditProfileView.swift */; };
 		6574A5D52A8F0959000FF499 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6574A5D42A8F0959000FF499 /* GoogleService-Info.plist */; };
 		6574A5DA2A8F0A94000FF499 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6574A5D92A8F0A94000FF499 /* FirebaseFirestore */; };
@@ -39,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		65162ECF2A91AF2000737DCA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		65162ED12A91C12000737DCA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		65162ED32A91C2CB00737DCA /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		65162ED62A91C39700737DCA /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		6570D4EC2A8DD273005F49E0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		6574A5D42A8F0959000FF499 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6574A5E12A8F0C64000FF499 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
@@ -80,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65162ED52A91C38F00737DCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				65162ED62A91C39700737DCA /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6570D4EA2A8DD258005F49E0 /* EditProfile */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +202,7 @@
 		65850ED62A8C797200BB21BC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				65162ED32A91C2CB00737DCA /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -195,6 +210,7 @@
 		65850ED72A8C797300BB21BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65162ED12A91C12000737DCA /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -343,6 +359,7 @@
 		65850EFC2A8C91B600BB21BC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				65162ED52A91C38F00737DCA /* ViewModel */,
 				6570D4EA2A8DD258005F49E0 /* EditProfile */,
 				65850F072A8D730B00BB21BC /* Model */,
 				65850EFD2A8C91B900BB21BC /* View */,
@@ -461,10 +478,13 @@
 				65850EF72A8C918E00BB21BC /* CreateThreadView.swift in Sources */,
 				657C5E432A8F476100F0C3AE /* ContentViewModel.swift in Sources */,
 				65850EEF2A8C912C00BB21BC /* FeedView.swift in Sources */,
+				65162ED72A91C39700737DCA /* ProfileViewModel.swift in Sources */,
 				65850F092A8D731A00BB21BC /* ProfileThreadFilter.swift in Sources */,
+				65162ED42A91C2CB00737DCA /* UserService.swift in Sources */,
 				6574A5E42A8F0D39000FF499 /* AuthService.swift in Sources */,
 				65850EF32A8C915700BB21BC /* ExploreView.swift in Sources */,
 				65850EFF2A8C91C300BB21BC /* ProfileView.swift in Sources */,
+				65162ED22A91C12000737DCA /* User.swift in Sources */,
 				65850EE82A8C7EC100BB21BC /* ThreadsButtonModifier.swift in Sources */,
 				65850EEB2A8C8FC100BB21BC /* ThreadsTabView.swift in Sources */,
 				65850F042A8D6A9D00BB21BC /* CircularProfileImageView.swift in Sources */,
