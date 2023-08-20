@@ -10,8 +10,7 @@ import Combine
 import Firebase
 
 class ContentViewModel: ObservableObject {
-    @Published var userSession: User?
-    
+    @Published var userSession: FirebaseAuth.User?
     private var cancellables = Set<AnyCancellable>()
     
     init() {
