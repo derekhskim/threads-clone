@@ -413,7 +413,6 @@
 			isa = PBXGroup;
 			children = (
 				65850EEE2A8C912C00BB21BC /* FeedView.swift */,
-				65850F002A8C92B600BB21BC /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -492,6 +491,7 @@
 			isa = PBXGroup;
 			children = (
 				65850F032A8D6A9D00BB21BC /* CircularProfileImageView.swift */,
+				65850F002A8C92B600BB21BC /* ThreadCell.swift */,
 				65850F052A8D6AFE00BB21BC /* UserCell.swift */,
 			);
 			path = Components;
